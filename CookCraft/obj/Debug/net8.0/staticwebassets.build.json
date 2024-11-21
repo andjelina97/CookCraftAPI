@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tYyz4XZnxqAWcTBNd3kDIqLtUyroNjQMTMMjsBgpjLY=",
+  "Source": "CookCraft.WebApi",
+  "BasePath": "_content/CookCraft.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

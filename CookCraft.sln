@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CookCraft.WebApi", "CookCraft\CookCraft.WebApi.csproj", "{1F3405CB-0F5D-46AA-B997-AB7D98406779}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CookCraft.Repositories", "CookCraft.Repositories\CookCraft.Repositories.csproj", "{7D54EA06-8940-4C54-BF60-7A847C06BE93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CookCraft.Services", "CookCraft.Services\CookCraft.Services.csproj", "{CFF21224-2417-4B32-95D7-69DF36409407}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CookCraft.Domain", "CookCraft.Domain\CookCraft.Domain.csproj", "{77DA2FC6-1E73-4E8A-8C76-8023C2491F52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F3405CB-0F5D-46AA-B997-AB7D98406779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F3405CB-0F5D-46AA-B997-AB7D98406779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F3405CB-0F5D-46AA-B997-AB7D98406779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F3405CB-0F5D-46AA-B997-AB7D98406779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D54EA06-8940-4C54-BF60-7A847C06BE93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D54EA06-8940-4C54-BF60-7A847C06BE93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D54EA06-8940-4C54-BF60-7A847C06BE93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D54EA06-8940-4C54-BF60-7A847C06BE93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFF21224-2417-4B32-95D7-69DF36409407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF21224-2417-4B32-95D7-69DF36409407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF21224-2417-4B32-95D7-69DF36409407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF21224-2417-4B32-95D7-69DF36409407}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77DA2FC6-1E73-4E8A-8C76-8023C2491F52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77DA2FC6-1E73-4E8A-8C76-8023C2491F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77DA2FC6-1E73-4E8A-8C76-8023C2491F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77DA2FC6-1E73-4E8A-8C76-8023C2491F52}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2C05DBC7-AAAA-456F-9D30-6077602859AC}
+	EndGlobalSection
+EndGlobal

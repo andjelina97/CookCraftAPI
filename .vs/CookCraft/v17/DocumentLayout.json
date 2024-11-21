@@ -1,0 +1,618 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\GitHub-repos\\CookCraft\\CookCraft\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F3405CB-0F5D-46AA-B997-AB7D98406779}|CookCraft\\CookCraft.WebApi.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F3405CB-0F5D-46AA-B997-AB7D98406779}|CookCraft\\CookCraft.WebApi.csproj|solutionrelative:cookcraft\\controllers\\recipecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F3405CB-0F5D-46AA-B997-AB7D98406779}|CookCraft\\CookCraft.WebApi.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft\\controllers\\ingredientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F3405CB-0F5D-46AA-B997-AB7D98406779}|CookCraft\\CookCraft.WebApi.csproj|solutionrelative:cookcraft\\controllers\\ingredientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.repositories\\repositories\\reciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|solutionrelative:cookcraft.repositories\\repositories\\reciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.repositories\\repositories\\ingredientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|solutionrelative:cookcraft.repositories\\repositories\\ingredientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F3405CB-0F5D-46AA-B997-AB7D98406779}|CookCraft\\CookCraft.WebApi.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F3405CB-0F5D-46AA-B997-AB7D98406779}|CookCraft\\CookCraft.WebApi.csproj|solutionrelative:cookcraft\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F3405CB-0F5D-46AA-B997-AB7D98406779}|CookCraft\\CookCraft.WebApi.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1F3405CB-0F5D-46AA-B997-AB7D98406779}|CookCraft\\CookCraft.WebApi.csproj|solutionrelative:cookcraft\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.repositories\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|solutionrelative:cookcraft.repositories\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.repositories\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|solutionrelative:cookcraft.repositories\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.repositories\\entities\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|solutionrelative:cookcraft.repositories\\entities\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F3405CB-0F5D-46AA-B997-AB7D98406779}|CookCraft\\CookCraft.WebApi.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F3405CB-0F5D-46AA-B997-AB7D98406779}|CookCraft\\CookCraft.WebApi.csproj|solutionrelative:cookcraft\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF21224-2417-4B32-95D7-69DF36409407}|CookCraft.Services\\CookCraft.Services.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.services\\services\\ingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF21224-2417-4B32-95D7-69DF36409407}|CookCraft.Services\\CookCraft.Services.csproj|solutionrelative:cookcraft.services\\services\\ingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.repositories\\interfaces\\iingredientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|solutionrelative:cookcraft.repositories\\interfaces\\iingredientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF21224-2417-4B32-95D7-69DF36409407}|CookCraft.Services\\CookCraft.Services.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.services\\interfaces\\iingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF21224-2417-4B32-95D7-69DF36409407}|CookCraft.Services\\CookCraft.Services.csproj|solutionrelative:cookcraft.services\\interfaces\\iingredientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF21224-2417-4B32-95D7-69DF36409407}|CookCraft.Services\\CookCraft.Services.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.services\\interfaces\\irecipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF21224-2417-4B32-95D7-69DF36409407}|CookCraft.Services\\CookCraft.Services.csproj|solutionrelative:cookcraft.services\\interfaces\\irecipeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77DA2FC6-1E73-4E8A-8C76-8023C2491F52}|CookCraft.Domain\\CookCraft.Domain.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.domain\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77DA2FC6-1E73-4E8A-8C76-8023C2491F52}|CookCraft.Domain\\CookCraft.Domain.csproj|solutionrelative:cookcraft.domain\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77DA2FC6-1E73-4E8A-8C76-8023C2491F52}|CookCraft.Domain\\CookCraft.Domain.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.domain\\dtos\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77DA2FC6-1E73-4E8A-8C76-8023C2491F52}|CookCraft.Domain\\CookCraft.Domain.csproj|solutionrelative:cookcraft.domain\\dtos\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77DA2FC6-1E73-4E8A-8C76-8023C2491F52}|CookCraft.Domain\\CookCraft.Domain.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.domain\\dtos\\recipedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77DA2FC6-1E73-4E8A-8C76-8023C2491F52}|CookCraft.Domain\\CookCraft.Domain.csproj|solutionrelative:cookcraft.domain\\dtos\\recipedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.repositories\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|solutionrelative:cookcraft.repositories\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.repositories\\entities\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|solutionrelative:cookcraft.repositories\\entities\\ingredient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77DA2FC6-1E73-4E8A-8C76-8023C2491F52}|CookCraft.Domain\\CookCraft.Domain.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.domain\\dtos\\ingredientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77DA2FC6-1E73-4E8A-8C76-8023C2491F52}|CookCraft.Domain\\CookCraft.Domain.csproj|solutionrelative:cookcraft.domain\\dtos\\ingredientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77DA2FC6-1E73-4E8A-8C76-8023C2491F52}|CookCraft.Domain\\CookCraft.Domain.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.domain\\dtos\\baseentitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77DA2FC6-1E73-4E8A-8C76-8023C2491F52}|CookCraft.Domain\\CookCraft.Domain.csproj|solutionrelative:cookcraft.domain\\dtos\\baseentitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.repositories\\interfaces\\ibaseentityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|solutionrelative:cookcraft.repositories\\interfaces\\ibaseentityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.repositories\\mappingprofiles\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|solutionrelative:cookcraft.repositories\\mappingprofiles\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.repositories\\mappingprofiles\\roleprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|solutionrelative:cookcraft.repositories\\mappingprofiles\\roleprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.repositories\\mappingprofiles\\ingredientprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|solutionrelative:cookcraft.repositories\\mappingprofiles\\ingredientprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.repositories\\mappingprofiles\\baseentityprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|solutionrelative:cookcraft.repositories\\mappingprofiles\\baseentityprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF21224-2417-4B32-95D7-69DF36409407}|CookCraft.Services\\CookCraft.Services.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.services\\services\\recipesevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF21224-2417-4B32-95D7-69DF36409407}|CookCraft.Services\\CookCraft.Services.csproj|solutionrelative:cookcraft.services\\services\\recipesevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF21224-2417-4B32-95D7-69DF36409407}|CookCraft.Services\\CookCraft.Services.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.services\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF21224-2417-4B32-95D7-69DF36409407}|CookCraft.Services\\CookCraft.Services.csproj|solutionrelative:cookcraft.services\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF21224-2417-4B32-95D7-69DF36409407}|CookCraft.Services\\CookCraft.Services.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.services\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF21224-2417-4B32-95D7-69DF36409407}|CookCraft.Services\\CookCraft.Services.csproj|solutionrelative:cookcraft.services\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF21224-2417-4B32-95D7-69DF36409407}|CookCraft.Services\\CookCraft.Services.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.services\\services\\baseentityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF21224-2417-4B32-95D7-69DF36409407}|CookCraft.Services\\CookCraft.Services.csproj|solutionrelative:cookcraft.services\\services\\baseentityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF21224-2417-4B32-95D7-69DF36409407}|CookCraft.Services\\CookCraft.Services.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF21224-2417-4B32-95D7-69DF36409407}|CookCraft.Services\\CookCraft.Services.csproj|solutionrelative:cookcraft.services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF21224-2417-4B32-95D7-69DF36409407}|CookCraft.Services\\CookCraft.Services.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.services\\interfaces\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF21224-2417-4B32-95D7-69DF36409407}|CookCraft.Services\\CookCraft.Services.csproj|solutionrelative:cookcraft.services\\interfaces\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF21224-2417-4B32-95D7-69DF36409407}|CookCraft.Services\\CookCraft.Services.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.services\\interfaces\\ibaseentityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF21224-2417-4B32-95D7-69DF36409407}|CookCraft.Services\\CookCraft.Services.csproj|solutionrelative:cookcraft.services\\interfaces\\ibaseentityservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.repositories\\cookcraftdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|solutionrelative:cookcraft.repositories\\cookcraftdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F3405CB-0F5D-46AA-B997-AB7D98406779}|CookCraft\\CookCraft.WebApi.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft\\cookcraft.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1F3405CB-0F5D-46AA-B997-AB7D98406779}|CookCraft\\CookCraft.WebApi.csproj|solutionrelative:cookcraft\\cookcraft.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.repositories\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|solutionrelative:cookcraft.repositories\\interfaces\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|f:\\github-repos\\cookcraft\\cookcraft\\cookcraft.repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D54EA06-8940-4C54-BF60-7A847C06BE93}|CookCraft.Repositories\\CookCraft.Repositories.csproj|solutionrelative:cookcraft.repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "CookCraft\\Controllers\\UserController.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft\\Controllers\\UserController.cs",
+              "RelativeToolTip": "CookCraft\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T17:29:02.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IngredientController.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft\\Controllers\\IngredientController.cs",
+              "RelativeDocumentMoniker": "CookCraft\\Controllers\\IngredientController.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft\\Controllers\\IngredientController.cs",
+              "RelativeToolTip": "CookCraft\\Controllers\\IngredientController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T17:26:16.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft\\appsettings.json",
+              "RelativeDocumentMoniker": "CookCraft\\appsettings.json",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft\\appsettings.json",
+              "RelativeToolTip": "CookCraft\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-13T11:55:08.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IngredientRepository.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\Repositories\\IngredientRepository.cs",
+              "RelativeDocumentMoniker": "CookCraft.Repositories\\Repositories\\IngredientRepository.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\Repositories\\IngredientRepository.cs",
+              "RelativeToolTip": "CookCraft.Repositories\\Repositories\\IngredientRepository.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADEAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T17:23:28.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RecipeRepository.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\Repositories\\RecipeRepository.cs",
+              "RelativeDocumentMoniker": "CookCraft.Repositories\\Repositories\\RecipeRepository.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\Repositories\\RecipeRepository.cs",
+              "RelativeToolTip": "CookCraft.Repositories\\Repositories\\RecipeRepository.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAAEMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T20:21:02.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RecipeController.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft\\Controllers\\RecipeController.cs",
+              "RelativeDocumentMoniker": "CookCraft\\Controllers\\RecipeController.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft\\Controllers\\RecipeController.cs",
+              "RelativeToolTip": "CookCraft\\Controllers\\RecipeController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABMAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T20:21:12.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "CookCraft.Repositories\\Repositories\\RoleRepository.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "CookCraft.Repositories\\Repositories\\RoleRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T17:23:31.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "CookCraft.Repositories\\Repositories\\UserRepository.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "CookCraft.Repositories\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAAYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T17:23:35.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\Entities\\Recipe.cs",
+              "RelativeDocumentMoniker": "CookCraft.Repositories\\Entities\\Recipe.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\Entities\\Recipe.cs",
+              "RelativeToolTip": "CookCraft.Repositories\\Entities\\Recipe.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T17:18:35.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft\\Program.cs",
+              "RelativeDocumentMoniker": "CookCraft\\Program.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft\\Program.cs",
+              "RelativeToolTip": "CookCraft\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:56:09.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IIngredientRepository.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\Interfaces\\IIngredientRepository.cs",
+              "RelativeDocumentMoniker": "CookCraft.Repositories\\Interfaces\\IIngredientRepository.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\Interfaces\\IIngredientRepository.cs",
+              "RelativeToolTip": "CookCraft.Repositories\\Interfaces\\IIngredientRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T17:27:57.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IngredientService.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Services\\Services\\IngredientService.cs",
+              "RelativeDocumentMoniker": "CookCraft.Services\\Services\\IngredientService.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Services\\Services\\IngredientService.cs",
+              "RelativeToolTip": "CookCraft.Services\\Services\\IngredientService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:41:46.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IIngredientService.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Services\\Interfaces\\IIngredientService.cs",
+              "RelativeDocumentMoniker": "CookCraft.Services\\Interfaces\\IIngredientService.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Services\\Interfaces\\IIngredientService.cs",
+              "RelativeToolTip": "CookCraft.Services\\Interfaces\\IIngredientService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:45:31.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IRecipeService.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Services\\Interfaces\\IRecipeService.cs",
+              "RelativeDocumentMoniker": "CookCraft.Services\\Interfaces\\IRecipeService.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Services\\Interfaces\\IRecipeService.cs",
+              "RelativeToolTip": "CookCraft.Services\\Interfaces\\IRecipeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:10:48.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Domain\\Dtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "CookCraft.Domain\\Dtos\\UserDto.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Domain\\Dtos\\UserDto.cs",
+              "RelativeToolTip": "CookCraft.Domain\\Dtos\\UserDto.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:50:29.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RoleDto.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Domain\\Dtos\\RoleDto.cs",
+              "RelativeDocumentMoniker": "CookCraft.Domain\\Dtos\\RoleDto.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Domain\\Dtos\\RoleDto.cs",
+              "RelativeToolTip": "CookCraft.Domain\\Dtos\\RoleDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:50:49.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RecipeDto.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Domain\\Dtos\\RecipeDto.cs",
+              "RelativeDocumentMoniker": "CookCraft.Domain\\Dtos\\RecipeDto.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Domain\\Dtos\\RecipeDto.cs",
+              "RelativeToolTip": "CookCraft.Domain\\Dtos\\RecipeDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T20:20:48.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Role.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "CookCraft.Repositories\\Entities\\Role.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\Entities\\Role.cs",
+              "RelativeToolTip": "CookCraft.Repositories\\Entities\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:31:12.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Ingredient.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\Entities\\Ingredient.cs",
+              "RelativeDocumentMoniker": "CookCraft.Repositories\\Entities\\Ingredient.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\Entities\\Ingredient.cs",
+              "RelativeToolTip": "CookCraft.Repositories\\Entities\\Ingredient.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T18:31:09.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IngredientDto.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Domain\\Dtos\\IngredientDto.cs",
+              "RelativeDocumentMoniker": "CookCraft.Domain\\Dtos\\IngredientDto.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Domain\\Dtos\\IngredientDto.cs",
+              "RelativeToolTip": "CookCraft.Domain\\Dtos\\IngredientDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:50:10.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\MappingProfiles\\UserProfile.cs",
+              "RelativeDocumentMoniker": "CookCraft.Repositories\\MappingProfiles\\UserProfile.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\MappingProfiles\\UserProfile.cs",
+              "RelativeToolTip": "CookCraft.Repositories\\MappingProfiles\\UserProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:58:47.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BaseEntityDto.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Domain\\Dtos\\BaseEntityDto.cs",
+              "RelativeDocumentMoniker": "CookCraft.Domain\\Dtos\\BaseEntityDto.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Domain\\Dtos\\BaseEntityDto.cs",
+              "RelativeToolTip": "CookCraft.Domain\\Dtos\\BaseEntityDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T20:05:48.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IBaseEntityRepository.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\Interfaces\\IBaseEntityRepository.cs",
+              "RelativeDocumentMoniker": "CookCraft.Repositories\\Interfaces\\IBaseEntityRepository.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\Interfaces\\IBaseEntityRepository.cs",
+              "RelativeToolTip": "CookCraft.Repositories\\Interfaces\\IBaseEntityRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T20:05:17.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RoleProfile.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\MappingProfiles\\RoleProfile.cs",
+              "RelativeDocumentMoniker": "CookCraft.Repositories\\MappingProfiles\\RoleProfile.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\MappingProfiles\\RoleProfile.cs",
+              "RelativeToolTip": "CookCraft.Repositories\\MappingProfiles\\RoleProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:58:23.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IngredientProfile.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\MappingProfiles\\IngredientProfile.cs",
+              "RelativeDocumentMoniker": "CookCraft.Repositories\\MappingProfiles\\IngredientProfile.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\MappingProfiles\\IngredientProfile.cs",
+              "RelativeToolTip": "CookCraft.Repositories\\MappingProfiles\\IngredientProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:57:41.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BaseEntityProfile.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\MappingProfiles\\BaseEntityProfile.cs",
+              "RelativeDocumentMoniker": "CookCraft.Repositories\\MappingProfiles\\BaseEntityProfile.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\MappingProfiles\\BaseEntityProfile.cs",
+              "RelativeToolTip": "CookCraft.Repositories\\MappingProfiles\\BaseEntityProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:58:05.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RecipeSevice.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Services\\Services\\RecipeSevice.cs",
+              "RelativeDocumentMoniker": "CookCraft.Services\\Services\\RecipeSevice.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Services\\Services\\RecipeSevice.cs",
+              "RelativeToolTip": "CookCraft.Services\\Services\\RecipeSevice.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T20:20:53.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Services\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "CookCraft.Services\\Services\\UserService.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Services\\Services\\UserService.cs",
+              "RelativeToolTip": "CookCraft.Services\\Services\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:41:57.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Services\\Services\\RoleService.cs",
+              "RelativeDocumentMoniker": "CookCraft.Services\\Services\\RoleService.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Services\\Services\\RoleService.cs",
+              "RelativeToolTip": "CookCraft.Services\\Services\\RoleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:42:45.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BaseEntityService.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Services\\Services\\BaseEntityService.cs",
+              "RelativeDocumentMoniker": "CookCraft.Services\\Services\\BaseEntityService.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Services\\Services\\BaseEntityService.cs",
+              "RelativeToolTip": "CookCraft.Services\\Services\\BaseEntityService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:42:11.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "CookCraft.Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "CookCraft.Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:45:54.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IRoleService.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Services\\Interfaces\\IRoleService.cs",
+              "RelativeDocumentMoniker": "CookCraft.Services\\Interfaces\\IRoleService.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Services\\Interfaces\\IRoleService.cs",
+              "RelativeToolTip": "CookCraft.Services\\Interfaces\\IRoleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:45:43.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IBaseEntityService.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Services\\Interfaces\\IBaseEntityService.cs",
+              "RelativeDocumentMoniker": "CookCraft.Services\\Interfaces\\IBaseEntityService.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Services\\Interfaces\\IBaseEntityService.cs",
+              "RelativeToolTip": "CookCraft.Services\\Interfaces\\IBaseEntityService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:45:20.355Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CookCraft.WebApi.csproj",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft\\CookCraft.WebApi.csproj",
+              "RelativeDocumentMoniker": "CookCraft\\CookCraft.WebApi.csproj",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft\\CookCraft.WebApi.csproj",
+              "RelativeToolTip": "CookCraft\\CookCraft.WebApi.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-13T18:09:19.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CookCraftDbContext.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\CookCraftDbContext.cs",
+              "RelativeDocumentMoniker": "CookCraft.Repositories\\CookCraftDbContext.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\CookCraftDbContext.cs",
+              "RelativeToolTip": "CookCraft.Repositories\\CookCraftDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T11:53:41.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "CookCraft.Repositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "CookCraft.Repositories\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T17:27:36.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\Interfaces\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "CookCraft.Repositories\\Interfaces\\IRoleRepository.cs",
+              "ToolTip": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\Interfaces\\IRoleRepository.cs",
+              "RelativeToolTip": "CookCraft.Repositories\\Interfaces\\IRoleRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T17:28:43.175Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
