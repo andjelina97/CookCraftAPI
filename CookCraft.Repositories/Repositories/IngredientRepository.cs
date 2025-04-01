@@ -20,14 +20,14 @@ namespace CookCraft.Repositories.Repositories
 
         public async Task<IngredientDto> GetIngredientById(Guid ingredientId)
         {
-            Ingredient ingredient = await context.Ingredients.Include(r => r.Recipes).FirstOrDefaultAsync(r => r.Id == ingredientId);
+            Ingredient ingredient = await context.Ingredients.Include(r => r.RecipesIngredient).FirstOrDefaultAsync(r => r.Id == ingredientId);
             var dto = _mapper.Map<IngredientDto>(ingredient);
             return dto;
         }
 
         public async Task<List<IngredientDto>> GetAllIngredients()
         {
-            var ingredients = await context.Ingredients.Include(r => r.Recipes).ToListAsync();
+            var ingredients = await context.Ingredients.Include(r => r.RecipesIngredient).ToListAsync();
             return _mapper.Map<List<IngredientDto>>(ingredients);
         }
 

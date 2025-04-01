@@ -1,5 +1,4 @@
-﻿
-using CookCraft.Domain.Dtos;
+﻿using CookCraft.Domain.Dtos;
 
 namespace CookCraft.Repositories.Interfaces
 {

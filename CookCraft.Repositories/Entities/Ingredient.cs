@@ -10,6 +10,9 @@ namespace CookCraft.Repositories.Entities
         [MaxLength(50)]
         public string Name { get; set; }
 
-        public virtual List<Recipe> Recipes { get; set; }
+        [Required]
+        public string UnitOfMeasurement { get; set; }
+
+        public virtual List<RecipeIngredient> RecipesIngredient { get; set; }
     }
 }

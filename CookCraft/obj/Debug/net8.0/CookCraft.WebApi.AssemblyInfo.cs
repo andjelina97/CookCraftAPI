@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("0edc90d0-0bf2-4149-a310-dcfa581ba057")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("CookCraft.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38c5a711cba52a985757b355aa45bca721dda8c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3d7f0ed9fe9564b18946894859f05d4d72b4f0a")]
 [assembly: System.Reflection.AssemblyProductAttribute("CookCraft.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CookCraft.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

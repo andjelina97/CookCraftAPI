@@ -16,6 +16,6 @@ namespace CookCraft.Domain.Dtos
 
         public Guid UserId { get; set; }
 
-        public virtual List<IngredientDto> Ingredients { get; set; }
+        public virtual List<RecipeIngredientDto> Ingredients { get; set; }
     }
 }

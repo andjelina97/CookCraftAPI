@@ -23,6 +23,6 @@ namespace CookCraft.Repositories.Entities
 
         public Guid UserId { get; set; }
 
-        public virtual List<Ingredient> Ingredients { get; set; }
+        public virtual List<RecipeIngredient> RecipeIngredients { get; set; }
     }
 }

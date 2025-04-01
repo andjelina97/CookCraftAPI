@@ -26,7 +26,7 @@ namespace CookCraft.Repositories.Entities
         [Required]
         public byte[] Salt { get; set; }
 
-        public byte[] Photo { get; set; }
+        public byte[]? Photo { get; set; }
 
         public virtual Role Role { get; set; }
         public virtual Guid RoleId { get; set; }

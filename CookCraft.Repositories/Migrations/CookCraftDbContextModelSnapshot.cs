@@ -33,6 +33,10 @@ namespace CookCraft.Repositories.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)");
 
+                    b.Property<string>("UnitOfMeasurement")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
                     b.ToTable("Ingredient");
@@ -67,6 +71,30 @@ namespace CookCraft.Repositories.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Recipe");
+                });
+
+            modelBuilder.Entity("CookCraft.Repositories.Entities.RecipeIngredient", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("IngredientId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<Guid>("RecipeId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("IngredientId");
+
+                    b.HasIndex("RecipeId");
+
+                    b.ToTable("RecipeIngredient");
                 });
 
             modelBuilder.Entity("CookCraft.Repositories.Entities.Role", b =>
@@ -106,7 +134,6 @@ namespace CookCraft.Repositories.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<byte[]>("Photo")
-                        .IsRequired()
                         .HasColumnType("varbinary(max)");
 
                     b.Property<Guid>("RoleId")
@@ -128,21 +155,6 @@ namespace CookCraft.Repositories.Migrations
                     b.ToTable("User");
                 });
 
-            modelBuilder.Entity("IngredientRecipe", b =>
-                {
-                    b.Property<Guid>("IngredientsId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("RecipesId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.HasKey("IngredientsId", "RecipesId");
-
-                    b.HasIndex("RecipesId");
-
-                    b.ToTable("IngredientRecipe");
-                });
-
             modelBuilder.Entity("CookCraft.Repositories.Entities.Recipe", b =>
                 {
                     b.HasOne("CookCraft.Repositories.Entities.User", "User")
@@ -152,6 +164,25 @@ namespace CookCraft.Repositories.Migrations
                         .IsRequired();
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("CookCraft.Repositories.Entities.RecipeIngredient", b =>
+                {
+                    b.HasOne("CookCraft.Repositories.Entities.Ingredient", "Ingredient")
+                        .WithMany("RecipesIngredient")
+                        .HasForeignKey("IngredientId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("CookCraft.Repositories.Entities.Recipe", "Recipe")
+                        .WithMany("RecipeIngredients")
+                        .HasForeignKey("RecipeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Ingredient");
+
+                    b.Navigation("Recipe");
                 });
 
             modelBuilder.Entity("CookCraft.Repositories.Entities.User", b =>
@@ -165,19 +196,14 @@ namespace CookCraft.Repositories.Migrations
                     b.Navigation("Role");
                 });
 
-            modelBuilder.Entity("IngredientRecipe", b =>
+            modelBuilder.Entity("CookCraft.Repositories.Entities.Ingredient", b =>
                 {
-                    b.HasOne("CookCraft.Repositories.Entities.Ingredient", null)
-                        .WithMany()
-                        .HasForeignKey("IngredientsId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Navigation("RecipesIngredient");
+                });
 
-                    b.HasOne("CookCraft.Repositories.Entities.Recipe", null)
-                        .WithMany()
-                        .HasForeignKey("RecipesId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+            modelBuilder.Entity("CookCraft.Repositories.Entities.Recipe", b =>
+                {
+                    b.Navigation("RecipeIngredients");
                 });
 #pragma warning restore 612, 618
         }

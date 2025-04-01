@@ -20,7 +20,7 @@ namespace CookCraft.Repositories.Repositories
 
         public async Task<RecipeDto> GetRecipeById(Guid recipeId) 
         {
-            Recipe recipe = await context.Recipes.Include(r => r.Ingredients).FirstOrDefaultAsync(r => r.Id == recipeId);
+            Recipe recipe = await context.Recipes.Include(r => r.RecipeIngredients).FirstOrDefaultAsync(r => r.Id == recipeId);
             // podesiti automapper
             var dto = _mapper.Map<RecipeDto>(recipe);
             /* dto = new RecipeDto()
@@ -37,7 +37,7 @@ namespace CookCraft.Repositories.Repositories
         public async Task<List<RecipeDto>> GetAllRecipes()
         {
             // Dohvatanje svih Recipe entiteta iz baze
-            var recipes = await context.Recipes.Include(r => r.Ingredients).ToListAsync();
+            var recipes = await context.Recipes.Include(r => r.RecipeIngredients).ToListAsync();
 
             // Mapiranje liste Recipe entiteta u listu RecipeDto objekata
             return _mapper.Map<List<RecipeDto>>(recipes);

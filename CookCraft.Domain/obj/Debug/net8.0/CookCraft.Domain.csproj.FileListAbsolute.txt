@@ -10,3 +10,15 @@ F:\GitHub-repos\CookCraft\CookCraft\CookCraft.Domain\obj\Debug\net8.0\CookCraft.
 F:\GitHub-repos\CookCraft\CookCraft\CookCraft.Domain\obj\Debug\net8.0\refint\CookCraft.Domain.dll
 F:\GitHub-repos\CookCraft\CookCraft\CookCraft.Domain\obj\Debug\net8.0\CookCraft.Domain.pdb
 F:\GitHub-repos\CookCraft\CookCraft\CookCraft.Domain\obj\Debug\net8.0\ref\CookCraft.Domain.dll
+D:\git-repos\CookCraft\CookCraft.Domain\bin\Debug\net8.0\CookCraft.Domain.deps.json
+D:\git-repos\CookCraft\CookCraft.Domain\bin\Debug\net8.0\CookCraft.Domain.dll
+D:\git-repos\CookCraft\CookCraft.Domain\bin\Debug\net8.0\CookCraft.Domain.pdb
+D:\git-repos\CookCraft\CookCraft.Domain\obj\Debug\net8.0\CookCraft.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\git-repos\CookCraft\CookCraft.Domain\obj\Debug\net8.0\CookCraft.Domain.AssemblyInfoInputs.cache
+D:\git-repos\CookCraft\CookCraft.Domain\obj\Debug\net8.0\CookCraft.Domain.AssemblyInfo.cs
+D:\git-repos\CookCraft\CookCraft.Domain\obj\Debug\net8.0\CookCraft.Domain.csproj.CoreCompileInputs.cache
+D:\git-repos\CookCraft\CookCraft.Domain\obj\Debug\net8.0\CookCraft.Domain.sourcelink.json
+D:\git-repos\CookCraft\CookCraft.Domain\obj\Debug\net8.0\CookCraft.Domain.dll
+D:\git-repos\CookCraft\CookCraft.Domain\obj\Debug\net8.0\refint\CookCraft.Domain.dll
+D:\git-repos\CookCraft\CookCraft.Domain\obj\Debug\net8.0\CookCraft.Domain.pdb
+D:\git-repos\CookCraft\CookCraft.Domain\obj\Debug\net8.0\ref\CookCraft.Domain.dll

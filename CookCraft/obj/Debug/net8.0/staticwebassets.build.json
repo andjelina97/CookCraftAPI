@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "tYyz4XZnxqAWcTBNd3kDIqLtUyroNjQMTMMjsBgpjLY=",
+  "Hash": "v+pHASxItqu8SGGsMpd2HclZSvlHuIS8eYuKvlSZyZ8=",
   "Source": "CookCraft.WebApi",
   "BasePath": "_content/CookCraft.WebApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

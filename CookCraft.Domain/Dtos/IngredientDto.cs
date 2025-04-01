@@ -5,7 +5,7 @@ namespace CookCraft.Domain.Dtos
     {
         public string Name { get; set; }
 
-        public virtual List<RecipeDto> Recipes { get; set; }
+        public virtual List<RecipeIngredientDto> Recipes { get; set; }
     }
 
   

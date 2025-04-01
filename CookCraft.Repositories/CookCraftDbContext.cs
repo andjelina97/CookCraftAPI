@@ -9,6 +9,7 @@ namespace CookCraft.Repositories
         public DbSet<Role> Roles { get; set; }
         public DbSet<Recipe> Recipes { get; set; }
         public DbSet<Ingredient> Ingredients { get; set; }
+        public DbSet<RecipeIngredient> RecipesIngredients { get; set; }
 
         public CookCraftDbContext(DbContextOptions<CookCraftDbContext> options) : base(options)
         {

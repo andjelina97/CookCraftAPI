@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft\\CookCraft.WebApi.csproj": {}
+    "D:\\git-repos\\CookCraft\\CookCraft\\CookCraft.WebApi.csproj": {}
   },
   "projects": {
-    "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Domain\\CookCraft.Domain.csproj": {
+    "D:\\git-repos\\CookCraft\\CookCraft.Domain\\CookCraft.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Domain\\CookCraft.Domain.csproj",
+        "projectUniqueName": "D:\\git-repos\\CookCraft\\CookCraft.Domain\\CookCraft.Domain.csproj",
         "projectName": "CookCraft.Domain",
-        "projectPath": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Domain\\CookCraft.Domain.csproj",
-        "packagesPath": "C:\\Users\\Andjela\\.nuget\\packages\\",
-        "outputPath": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Domain\\obj\\",
+        "projectPath": "D:\\git-repos\\CookCraft\\CookCraft.Domain\\CookCraft.Domain.csproj",
+        "packagesPath": "C:\\Users\\Laza\\.nuget\\packages\\",
+        "outputPath": "D:\\git-repos\\CookCraft\\CookCraft.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Andjela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Laza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -65,24 +65,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\CookCraft.Repositories.csproj": {
+    "D:\\git-repos\\CookCraft\\CookCraft.Repositories\\CookCraft.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\CookCraft.Repositories.csproj",
+        "projectUniqueName": "D:\\git-repos\\CookCraft\\CookCraft.Repositories\\CookCraft.Repositories.csproj",
         "projectName": "CookCraft.Repositories",
-        "projectPath": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\CookCraft.Repositories.csproj",
-        "packagesPath": "C:\\Users\\Andjela\\.nuget\\packages\\",
-        "outputPath": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\obj\\",
+        "projectPath": "D:\\git-repos\\CookCraft\\CookCraft.Repositories\\CookCraft.Repositories.csproj",
+        "packagesPath": "C:\\Users\\Laza\\.nuget\\packages\\",
+        "outputPath": "D:\\git-repos\\CookCraft\\CookCraft.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Andjela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Laza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -91,15 +91,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Domain\\CookCraft.Domain.csproj": {
-                "projectPath": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Domain\\CookCraft.Domain.csproj"
+              "D:\\git-repos\\CookCraft\\CookCraft.Domain\\CookCraft.Domain.csproj": {
+                "projectPath": "D:\\git-repos\\CookCraft\\CookCraft.Domain\\CookCraft.Domain.csproj"
               }
             }
           }
@@ -113,7 +112,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -160,24 +160,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Services\\CookCraft.Services.csproj": {
+    "D:\\git-repos\\CookCraft\\CookCraft.Services\\CookCraft.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Services\\CookCraft.Services.csproj",
+        "projectUniqueName": "D:\\git-repos\\CookCraft\\CookCraft.Services\\CookCraft.Services.csproj",
         "projectName": "CookCraft.Services",
-        "projectPath": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Services\\CookCraft.Services.csproj",
-        "packagesPath": "C:\\Users\\Andjela\\.nuget\\packages\\",
-        "outputPath": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Services\\obj\\",
+        "projectPath": "D:\\git-repos\\CookCraft\\CookCraft.Services\\CookCraft.Services.csproj",
+        "packagesPath": "C:\\Users\\Laza\\.nuget\\packages\\",
+        "outputPath": "D:\\git-repos\\CookCraft\\CookCraft.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Andjela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Laza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -186,18 +186,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Domain\\CookCraft.Domain.csproj": {
-                "projectPath": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Domain\\CookCraft.Domain.csproj"
+              "D:\\git-repos\\CookCraft\\CookCraft.Domain\\CookCraft.Domain.csproj": {
+                "projectPath": "D:\\git-repos\\CookCraft\\CookCraft.Domain\\CookCraft.Domain.csproj"
               },
-              "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\CookCraft.Repositories.csproj": {
-                "projectPath": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Repositories\\CookCraft.Repositories.csproj"
+              "D:\\git-repos\\CookCraft\\CookCraft.Repositories\\CookCraft.Repositories.csproj": {
+                "projectPath": "D:\\git-repos\\CookCraft\\CookCraft.Repositories\\CookCraft.Repositories.csproj"
               }
             }
           }
@@ -211,7 +210,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -238,24 +238,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft\\CookCraft.WebApi.csproj": {
+    "D:\\git-repos\\CookCraft\\CookCraft\\CookCraft.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft\\CookCraft.WebApi.csproj",
+        "projectUniqueName": "D:\\git-repos\\CookCraft\\CookCraft\\CookCraft.WebApi.csproj",
         "projectName": "CookCraft.WebApi",
-        "projectPath": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft\\CookCraft.WebApi.csproj",
-        "packagesPath": "C:\\Users\\Andjela\\.nuget\\packages\\",
-        "outputPath": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft\\obj\\",
+        "projectPath": "D:\\git-repos\\CookCraft\\CookCraft\\CookCraft.WebApi.csproj",
+        "packagesPath": "C:\\Users\\Laza\\.nuget\\packages\\",
+        "outputPath": "D:\\git-repos\\CookCraft\\CookCraft\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Andjela\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Laza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -264,18 +264,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Domain\\CookCraft.Domain.csproj": {
-                "projectPath": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Domain\\CookCraft.Domain.csproj"
+              "D:\\git-repos\\CookCraft\\CookCraft.Domain\\CookCraft.Domain.csproj": {
+                "projectPath": "D:\\git-repos\\CookCraft\\CookCraft.Domain\\CookCraft.Domain.csproj"
               },
-              "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Services\\CookCraft.Services.csproj": {
-                "projectPath": "F:\\GitHub-repos\\CookCraft\\CookCraft\\CookCraft.Services\\CookCraft.Services.csproj"
+              "D:\\git-repos\\CookCraft\\CookCraft.Services\\CookCraft.Services.csproj": {
+                "projectPath": "D:\\git-repos\\CookCraft\\CookCraft.Services\\CookCraft.Services.csproj"
               }
             }
           }
@@ -289,12 +288,17 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.0, )"
@@ -318,6 +322,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.3.0, )"
             }
           },
           "imports": [
@@ -339,7 +347,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

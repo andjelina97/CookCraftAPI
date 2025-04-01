@@ -1,0 +1,74 @@
+[
+  {
+    "ContainingType": "CookCraft.WebApi.Controllers.IngredientController",
+    "Method": "GetAllIngredients",
+    "RelativePath": "Ingredient/GetAllIngredients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CookCraft.WebApi.Controllers.IngredientController",
+    "Method": "GetIngredient",
+    "RelativePath": "Ingredient/GetIngredient",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CookCraft.WebApi.Controllers.RecipeController",
+    "Method": "GetAllRecipes",
+    "RelativePath": "Recipe/GetAllRecipes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CookCraft.WebApi.Controllers.RecipeController",
+    "Method": "GetRecipe",
+    "RelativePath": "Recipe/GetRecipe",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CookCraft.WebApi.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "User/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userLogin",
+        "Type": "CookCraft.Domain.Dtos.UserLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CookCraft.WebApi.Controllers.UserController",
+    "Method": "SignUp",
+    "RelativePath": "User/sign-up",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "CookCraft.Domain.Dtos.UserSignUpDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
